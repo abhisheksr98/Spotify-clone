@@ -1,5 +1,8 @@
 .body{
+    padding: 30px;
     border: 1px solid red;
     flex: .8;
-    background: linear-gradient(rgb(91, 87, 115))
+    height: 100vh;
+    color: white;
+    background: linear-gradient(rgb(91, 87, 115), rgba(0, 0, 0, 1));
 }

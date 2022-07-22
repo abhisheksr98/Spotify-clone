@@ -6,7 +6,7 @@ import  Footer from './Footer'
 
 
 
-function Player() {
+function Player({ spotify }) {
   return (
     <div className='player'>
       <div className="player_body">
@@ -15,7 +15,7 @@ function Player() {
       </div>
         <Footer/>
     </div>
-  )
+  );
 }
 
-export default Player
+export default Player;

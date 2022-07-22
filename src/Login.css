@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     height: 100vh;
-    background-color: red;
+    background-color: black;
 }
 .login >img {
     width: 100%;

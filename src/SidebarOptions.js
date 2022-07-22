@@ -1,10 +1,11 @@
 import React from 'react'
-import './SidebarOptions.css'
+import './SidebarOptions.css';
 
 function SidebarOptions({title,Icon}) {
   return (
     <div className='sidebaroption'>
-        <p>{title}</p>
+      {Icon && <Icon className='sidebaroption_icon'/>}
+      {Icon ? <h4>{title}</h4> : <p>{title}</p>}
     </div>
   )
 }
